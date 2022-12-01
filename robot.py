@@ -69,12 +69,12 @@ while True:
 
     print(robot_brain)
 
-    # phần nói (nếu muốn nói tiếng việt)
+    # phần nói (if you want speak Vietnamese)
     #tts = gTTS(text=robot_brain,lang='vi') 
     #tts.save("pcvoice.mp3")
     #os.system("start pcvoice.mp3")
 
-    #(nói tiếng anh)
+    #(SPEAK ENGLISH)
     # robot_mouth = pyttsx3.init()
     # robot_mouth.say(robot_brain)
     # robot_mouth.runAndWait()
